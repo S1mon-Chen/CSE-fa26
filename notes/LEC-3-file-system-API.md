@@ -346,8 +346,8 @@ READ(fd, buf, n):
 课件将块编号设为 `0–63`：
 
 ```text
-块 0       块 1       块 2       块 3–7          块 8–63
-superblock inode bitmap data bitmap inode table   data region
+   块 0         块 1          块 2        块 3–7        块 8–63
+superblock  inode bitmap  data bitmap  inode table   data region
 ```
 
 | 区域 | 内容 |
