@@ -315,7 +315,7 @@ GFS（Google File System）面向大规模数据密集型应用，课件强调�
                       元数据请求
 应用 + GFS client ----------------------> Master
         |                                 |
-        | 直接读写文件数据                | 管理 chunk、副本和租约
+        | 直接读写文件数据                   | 管理 chunk、副本和租约
         v                                 v
    Chunkserver 1     Chunkserver 2     Chunkserver 3 ...
        本地磁盘          本地磁盘          本地磁盘
